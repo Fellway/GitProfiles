@@ -9,7 +9,9 @@ import org.springframework.web.client.ResponseErrorHandler;
 
 import java.io.IOException;
 
-import static com.gitprofiles.exception.ApiRestErrors.*;
+import static com.gitprofiles.exception.ApiRestErrors.PRIVATE_ACCOUNT;
+import static com.gitprofiles.exception.ApiRestErrors.UNEXPECTED_ERROR;
+import static com.gitprofiles.exception.ApiRestErrors.USER_NOT_FOUND;
 import static org.springframework.http.HttpStatus.Series.CLIENT_ERROR;
 import static org.springframework.http.HttpStatus.Series.SERVER_ERROR;
 
